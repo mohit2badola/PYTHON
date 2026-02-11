@@ -6,3 +6,4 @@ for i in range(len(l)-1):
         if (l[i]+l[j])==target:
             print(i,j)
             
+
