@@ -106,5 +106,5 @@ It covers Python fundamentals, OOP, File Handling, Exception Handling, NumPy, Pa
 Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/PYTHON.git
+git clone https://github.com/mohit2badola/PYTHON.git
 cd PYTHON
