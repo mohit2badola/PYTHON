@@ -1,45 +1,110 @@
-# 🐍 Python Learning Journey
+# 🐍 PYTHON – BCA Python Programming Lab Repository
 
-Welcome to my Python learning journey!  
-This repository contains all the Python programs, practice problems, and mini-projects I complete while learning Python step by step.
-
-## 📌 About This Repository
-- Covers Python basics to intermediate concepts  
-- Includes practice codes and examples  
-- Focuses on logic building and problem solving  
-- Regularly updated as I learn new topics  
-
-## 📂 Contents
-- Basics (variables, data types, input/output)
-- Control statements (if-else, loops)
-- Functions
-- Lists, Tuples, Sets, Dictionaries
-- Strings
-- File handling
-- Exception handling
-- Basic projects and exercises
-
-## 🚀 Goals
-- Build a strong foundation in Python  
-- Improve problem-solving skills  
-- Prepare for future projects and advanced topics  
-- Maintain consistency in coding  
-
-## 🛠 Tools Used
-- Python 3.x  
-- VS Code  
-- Git & GitHub  
-
-## 📈 Progress
-This repository will grow as I continue learning Python and uploading new code regularly.
-
-## 🤝 Contributions
-This is a personal learning repository, but suggestions and improvements are always welcome!
-
-## 📬 Connect With Me
-- GitHub: [https://github.com/mohit2badola]
-- LinkedIn: [https://www.linkedin.com/in/badolamohit52?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app]
+> 📚 Complete Python Lab Experiments | CSEG1021  
+> 🎓 BCA – UPES Dehradun  
 
 ---
-⭐ If you find this repository helpful, consider giving it a star!
 
+## 📌 About This Repository
+
+This repository contains all Python lab experiments performed during the **Python Programming course**.  
+It covers Python fundamentals, OOP, File Handling, Exception Handling, NumPy, Pandas, and Data Visualization.
+
+---
+
+# 📂 Repository Structure
+
+| 📁 Experiment | 📖 Description | 🎯 Topics Covered |
+|--------------|---------------|------------------|
+| Exp-1 | Python Basics | Syntax, Variables, Data Types |
+| Exp-2 | Operators & Input | Arithmetic, Logical, Bitwise |
+| Exp-3 | Conditional Statements | if-else, grading programs |
+| Exp-4 | Loops | Prime, Factorial, Fibonacci |
+| Exp-5 | Strings & Sets | String methods, Set operations |
+| Exp-6 | List, Tuple, Dictionary | Data Structures |
+| Exp-7 | Functions | Recursion, Lambda, Arguments |
+| Exp-8 | File & Exception Handling | File operations, try-except |
+| Exp-9 | OOP Concepts | Class, Inheritance, Overriding |
+| Exp-10 | Data Analysis | NumPy, Pandas, Matplotlib |
+
+---
+
+# 🧠 Concepts Covered
+
+## 🔹 Python Fundamentals
+- Variables & Data Types  
+- Operators  
+- Conditional Statements  
+- Loops  
+
+## 🔹 Data Structures
+- List  
+- Tuple  
+- Set  
+- Dictionary  
+
+## 🔹 Functions
+- Recursion  
+- Lambda Functions  
+- Default Arguments  
+- Keyword Arguments  
+- Variable Length Arguments  
+
+## 🔹 File Handling
+- File Modes (`r`, `w`, `a`)  
+- Reading & Writing Files  
+- Working with `.txt` files  
+
+## 🔹 Exception Handling
+- try-except  
+- finally  
+- Custom Exceptions  
+
+## 🔹 Object Oriented Programming
+- Class & Object  
+- Constructor  
+- Inheritance (Single, Multiple, Multilevel)  
+- Method Overriding  
+- Operator Overloading  
+
+## 🔹 Data Analysis & Visualization
+- NumPy Arrays  
+- Matrix Operations  
+- Pandas DataFrame  
+- Handling Missing Values  
+- Matplotlib Charts  
+
+---
+
+# 🚀 Technologies Used
+
+| Tool | Purpose |
+|------|--------|
+| Python 3.x | Programming |
+| NumPy | Numerical Computation |
+| Pandas | Data Analysis |
+| Matplotlib | Visualization |
+| Jupyter Notebook | Lab Experiments |
+
+---
+
+# 📊 Visualizations Included
+
+- 📈 Line Chart  
+- 📊 Bar Chart  
+- 🥧 Pie Chart  
+- 🔵 Scatter Plot  
+
+---
+
+# 🧑‍🎓 Author
+
+**Mohit Badola**  
+
+# ⭐ How to Run
+
+Clone this repository:
+
+```bash
+git clone https://github.com/your-username/PYTHON.git
+cd PYTHON
