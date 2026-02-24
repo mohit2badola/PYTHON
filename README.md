@@ -12,6 +12,10 @@ It covers Python fundamentals, OOP, File Handling, Exception Handling, NumPy, Pa
 
 ---
 
+
+
+
+
 # 📂 Repository Structure
 
 | 📁 Experiment | 📖 Description | 🎯 Topics Covered |
@@ -29,6 +33,25 @@ It covers Python fundamentals, OOP, File Handling, Exception Handling, NumPy, Pa
 
 ---
 
+# 📂 Lab Experiments
+
+All files are located inside the `LAB/` folder.
+
+| Experiment | Notebook Link |
+|------------|----------------|
+| LAB TEST | [Open](https://github.com/mohit2badola/PYTHON/blob/main/LAB/LAB%20TEST.ipynb) |
+| Experiment 1 | [Open Exp-1](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_22-01-2026-Exp-1.ipynb) |
+| Experiment 2 | [Open Exp-2](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-2.ipynb) |
+| Experiment 3 | [Open Exp-3](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-3.ipynb) |
+| Experiment 4 | [Open Exp-4](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-4.ipynb) |
+| Experiment 5 | [Open Exp-5](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-5.ipynb) |
+| Experiment 6 | [Open Exp-6](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-6.ipynb) |
+| Experiment 7 | [Open Exp-7](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-7.ipynb) |
+| Experiment 8 | [Open Exp-8](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-8.ipynb) |
+| Experiment 9 | [Open Exp-9](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-9.ipynb) |
+| Experiment 10 | [Open Exp-10](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-10.ipynb) |
+
+---
 # 🧠 Concepts Covered
 
 ## 🔹 Python Fundamentals
