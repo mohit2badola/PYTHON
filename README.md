@@ -108,6 +108,22 @@ It covers Python fundamentals, OOP, File Handling, Exception Handling, NumPy, Pa
 
 **Mohit Badola**  
 
+---
+
+## 📊 GitHub Repository Stats
+
+<p align="center">
+
+<img src="https://img.shields.io/github/repo-size/mohit2badola/PYTHON" />
+<img src="https://img.shields.io/github/languages/count/mohit2badola/PYTHON" />
+<img src="https://img.shields.io/github/last-commit/mohit2badola/PYTHON" />
+<img src="https://img.shields.io/github/issues/mohit2badola/PYTHON" />
+<img src="https://img.shields.io/github/stars/mohit2badola/PYTHON?style=social" />
+
+</p>
+
+---
+
 # ⭐ How to Run
 
 Clone this repository:
