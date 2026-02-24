@@ -1,5 +1,14 @@
 # 🐍 PYTHON – BCA Python Programming Lab Repository
+<h1 align="center">🐍 PYTHON LAB – BCA</h1>
 
+<p align="center">
+<img src="https://img.shields.io/badge/Name-Mohit%20Badola-blue" />
+<img src="https://img.shields.io/badge/SAP%20ID-590021239-green" />
+<img src="https://img.shields.io/badge/Batch-B1-orange" />
+<img src="https://img.shields.io/badge/Course-CSEG1021-purple" />
+</p>
+
+---
 > 📚 Complete Python Lab Experiments | CSEG1021  
 > 🎓 BCA – UPES Dehradun  
 
