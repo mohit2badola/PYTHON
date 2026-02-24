@@ -14,44 +14,28 @@ It covers Python fundamentals, OOP, File Handling, Exception Handling, NumPy, Pa
 
 
 
+# 📂 Repository Structure – Lab Experiments
+
+> 📁 All notebooks are located inside the `LAB/` folder.
+
+| 📁 Experiment | 📖 Description | 🎯 Topics Covered | 🔗 Notebook |
+|--------------|---------------|------------------|-------------|
+| **LAB TEST** | Internal Lab Test | Practice Questions | [Open](https://github.com/mohit2badola/PYTHON/blob/main/LAB/LAB%20TEST.ipynb) |
+| **Exp-1** | Python Basics | Syntax, Variables, Data Types | [Open Exp-1](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_22-01-2026-Exp-1.ipynb) |
+| **Exp-2** | Operators & Input | Arithmetic, Logical, Bitwise | [Open Exp-2](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-2.ipynb) |
+| **Exp-3** | Conditional Statements | if-else, grading programs | [Open Exp-3](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-3.ipynb) |
+| **Exp-4** | Loops | Prime, Factorial, Fibonacci | [Open Exp-4](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-4.ipynb) |
+| **Exp-5** | Strings & Sets | String methods, Set operations | [Open Exp-5](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-5.ipynb) |
+| **Exp-6** | List, Tuple, Dictionary | Data Structures | [Open Exp-6](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-6.ipynb) |
+| **Exp-7** | Functions | Recursion, Lambda, Arguments | [Open Exp-7](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-7.ipynb) |
+| **Exp-8** | File & Exception Handling | File operations, try-except | [Open Exp-8](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-8.ipynb) |
+| **Exp-9** | OOP Concepts | Class, Inheritance, Overriding | [Open Exp-9](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-9.ipynb) |
+| **Exp-10** | Data Analysis | NumPy, Pandas, Matplotlib | [Open Exp-10](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-10.ipynb) |
+
+------
 
 
-# 📂 Repository Structure
 
-| 📁 Experiment | 📖 Description | 🎯 Topics Covered |
-|--------------|---------------|------------------|
-| Exp-1 | Python Basics | Syntax, Variables, Data Types |
-| Exp-2 | Operators & Input | Arithmetic, Logical, Bitwise |
-| Exp-3 | Conditional Statements | if-else, grading programs |
-| Exp-4 | Loops | Prime, Factorial, Fibonacci |
-| Exp-5 | Strings & Sets | String methods, Set operations |
-| Exp-6 | List, Tuple, Dictionary | Data Structures |
-| Exp-7 | Functions | Recursion, Lambda, Arguments |
-| Exp-8 | File & Exception Handling | File operations, try-except |
-| Exp-9 | OOP Concepts | Class, Inheritance, Overriding |
-| Exp-10 | Data Analysis | NumPy, Pandas, Matplotlib |
-
----
-
-# 📂 Lab Experiments
-
-All files are located inside the `LAB/` folder.
-
-| Experiment | Notebook Link |
-|------------|----------------|
-| LAB TEST | [Open](https://github.com/mohit2badola/PYTHON/blob/main/LAB/LAB%20TEST.ipynb) |
-| Experiment 1 | [Open Exp-1](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_22-01-2026-Exp-1.ipynb) |
-| Experiment 2 | [Open Exp-2](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-2.ipynb) |
-| Experiment 3 | [Open Exp-3](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-3.ipynb) |
-| Experiment 4 | [Open Exp-4](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-4.ipynb) |
-| Experiment 5 | [Open Exp-5](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-5.ipynb) |
-| Experiment 6 | [Open Exp-6](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-6.ipynb) |
-| Experiment 7 | [Open Exp-7](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-7.ipynb) |
-| Experiment 8 | [Open Exp-8](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-8.ipynb) |
-| Experiment 9 | [Open Exp-9](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-9.ipynb) |
-| Experiment 10 | [Open Exp-10](https://github.com/mohit2badola/PYTHON/blob/main/LAB/Lab_B1_590021239_27-01-2026-Exp-10.ipynb) |
-
----
 # 🧠 Concepts Covered
 
 ## 🔹 Python Fundamentals
