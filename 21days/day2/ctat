@@ -1,0 +1,69 @@
+# Question 1: System Information Tool (sys module) 
+# Using sys module, create a program that displays: 
+# • Python version (sys.version) 
+# • Platform information (sys.platform) 
+# • Maximum integer size (sys.maxsize) 
+# • Command line arguments (sys.argv) - create a calculator that takes numbers as 
+# command line arguments 
+# • Python path (sys.path) 
+# Format the output in a professional report style with clear sections and headers. 
+
+
+import sys
+
+def display_system_info():
+    print("=" * 50)
+    print("        SYSTEM INFORMATION REPORT")
+    print("=" * 50)
+
+    # Python Version
+    print("\n[1] Python Version:")
+    print(sys.version)
+
+    # Platform Information
+    print("\n[2] Platform Information:")
+    print(sys.platform)
+
+    # Maximum Integer Size
+    print("\n[3] Maximum Integer Size:")
+    print(sys.maxsize)
+
+    # Python Path
+    print("\n[4] Python Path (Directories):")
+    for path in sys.path:
+        print(" -", path)
+
+def calculator():
+    print("\n[5] Command Line Calculator:")
+
+    # sys.argv[0] is the script name
+    if len(sys.argv) < 3:
+        print("Usage: python script.py num1 operator num2")
+        print("Example: python script.py 10 + 5")
+        return
+
+    try:
+        num1 = float(sys.argv[1])
+        operator = sys.argv[2]
+        num2 = float(sys.argv[3])
+
+        if operator == '+':
+            result = num1 + num2
+        elif operator == '-':
+            result = num1 - num2
+        elif operator == '*':
+            result = num1 * num2
+        elif operator == '/':
+            result = num1 / num2
+        else:
+            print("Invalid operator! Use +, -, *, /")
+            return
+
+        print(f"Calculation: {num1} {operator} {num2} = {result}")
+
+    except Exception as e:
+        print("Error:", e)
+
+if __name__ == "__main__":
+    display_system_info()
+    calculator()
