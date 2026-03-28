@@ -1,69 +1,52 @@
-# Question 1: System Information Tool (sys module) 
-# Using sys module, create a program that displays: 
-# • Python version (sys.version) 
-# • Platform information (sys.platform) 
-# • Maximum integer size (sys.maxsize) 
-# • Command line arguments (sys.argv) - create a calculator that takes numbers as 
-# command line arguments 
-# • Python path (sys.path) 
-# Format the output in a professional report style with clear sections and headers. 
+Create programs using time module: 
+• Display current time using time.time(), time.ctime(), time.localtime() 
+• Format time using time.strftime() with different format codes 
+• Create countdown timer using time.sleep() 
+• Calculate age in years, months, days from birth date 
+• Find day of week for any given date 
+Display results in user-friendly format with proper labels
 
 
-import sys
+import time
 
-def display_system_info():
-    print("=" * 50)
-    print("        SYSTEM INFORMATION REPORT")
-    print("=" * 50)
+print("----- CURRENT TIME DETAILS -----")
 
-    # Python Version
-    print("\n[1] Python Version:")
-    print(sys.version)
+# Current timestamp
+current_timestamp = time.time()
+print("Timestamp (seconds since epoch):", current_timestamp)
 
-    # Platform Information
-    print("\n[2] Platform Information:")
-    print(sys.platform)
+# Readable time
+readable_time = time.ctime(current_timestamp)
+print("Readable Time:", readable_time)
 
-    # Maximum Integer Size
-    print("\n[3] Maximum Integer Size:")
-    print(sys.maxsize)
+# Local time (structured format)
+local_time = time.localtime(current_timestamp)
+print("Local Time (structured):", local_time)
 
-    # Python Path
-    print("\n[4] Python Path (Directories):")
-    for path in sys.path:
-        print(" -", path)
 
-def calculator():
-    print("\n[5] Command Line Calculator:")
 
-    # sys.argv[0] is the script name
-    if len(sys.argv) < 3:
-        print("Usage: python script.py num1 operator num2")
-        print("Example: python script.py 10 + 5")
-        return
 
-    try:
-        num1 = float(sys.argv[1])
-        operator = sys.argv[2]
-        num2 = float(sys.argv[3])
+import time
 
-        if operator == '+':
-            result = num1 + num2
-        elif operator == '-':
-            result = num1 - num2
-        elif operator == '*':
-            result = num1 * num2
-        elif operator == '/':
-            result = num1 / num2
-        else:
-            print("Invalid operator! Use +, -, *, /")
-            return
+print("\n----- FORMATTED TIME -----")
 
-        print(f"Calculation: {num1} {operator} {num2} = {result}")
+current_time = time.localtime()
 
-    except Exception as e:
-        print("Error:", e)
+print("Date (DD-MM-YYYY):", time.strftime("%d-%m-%Y", current_time))
+print("Time (HH:MM:SS):", time.strftime("%H:%M:%S", current_time))
+print("Day of Week:", time.strftime("%A", current_time))
+print("Month Name:", time.strftime("%B", current_time))
+print("Full Format:", time.strftime("%A, %d %B %Y %I:%M:%S %p", current_time))
 
-if __name__ == "__main__":
-    display_system_info()
-    calculator()
+
+import time
+
+print("\n----- COUNTDOWN TIMER -----")
+
+seconds = int(input("Enter countdown time in seconds: "))
+
+for i in range(seconds, 0, -1):
+    print("Time left:", i, "seconds")
+    time.sleep(1)
+
+print("⏰ Time's up!")
