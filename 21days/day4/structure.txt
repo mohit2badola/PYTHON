@@ -1,0 +1,31 @@
+calculator/
+│
+├── __init__.py
+│
+├── basic/
+│   ├── __init__.py
+│   ├── add.py
+│   ├── subtract.py
+│   ├── multiply.py
+│   └── divide.py
+│
+├── scientific/
+│   ├── __init__.py
+│   ├── trigonometry.py
+│   ├── logarithm.py
+│   └── power.py
+│
+├── statistics/
+│   ├── __init__.py
+│   ├── mean.py
+│   ├── median.py
+│   ├── mode.py
+│   └── std_dev.py
+│
+├── conversion/
+│   ├── __init__.py
+│   ├── temperature.py
+│   ├── length.py
+│   └── weight.py
+│
+└── test_calculator.py
