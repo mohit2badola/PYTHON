@@ -1,7 +1,19 @@
-Create class FileHandler:
+Create class RateLimiter:
 
-read file
-count words
-count lines
+allow only N requests per minute
+block extra requests
 
-👉 Concept: file handling
+👉 Concept: time + system design (used in APIs 🔥)
+
+The main goal is to:
+
+Allow only a limited number of requests (say N requests)
+Within a time window of 1 minute (60 seconds)
+If the limit is exceeded → block further requests
+
+Create class OTPSystem:
+
+generate OTP
+verify OTP (valid for 30 sec)
+
+👉 Concept: time + security (very good for cybersecurity 🔥)
