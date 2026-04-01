@@ -1,19 +1,13 @@
-Create class RateLimiter:
+5. Expense Tracker with Reports
 
-allow only N requests per minute
-block extra requests
+Create system:
 
-👉 Concept: time + system design (used in APIs 🔥)
+add expense (amount, category, date)
+monthly report
+highest spending category
 
-The main goal is to:
+👉 Concepts:
 
-Allow only a limited number of requests (say N requests)
-Within a time window of 1 minute (60 seconds)
-If the limit is exceeded → block further requests
-
-Create class OTPSystem:
-
-generate OTP
-verify OTP (valid for 30 sec)
-
-👉 Concept: time + security (very good for cybersecurity 🔥)
+grouping
+aggregation
+real-world utility
