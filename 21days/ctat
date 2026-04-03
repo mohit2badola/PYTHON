@@ -1,13 +1,12 @@
-5. Expense Tracker with Reports
+4. 📝 Notes Manager (CLI Based)
 
-Create system:
+👉 Like a mini Notion
 
-add expense (amount, category, date)
-monthly report
-highest spending category
+Concepts: file handling
 
-👉 Concepts:
+Features:
 
-grouping
-aggregation
-real-world utility
+Add note
+Delete note
+Search note
+Store in .txt or .json 
