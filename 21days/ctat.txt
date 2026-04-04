@@ -1,0 +1,18 @@
+# 🟢 PROGRAM 1: Library Book System (Basic OOP)
+
+# 👉 Covers:
+# ✔ Class & Object
+# ✔ Constructor
+# ✔ Methods
+# ✔ Class vs Instance variables
+# ✔ Public & Private
+
+
+🔵 PROGRAM 2: Payment System (Advanced OOP)
+
+👉 Covers:
+✔ Inheritance
+✔ Polymorphism
+✔ Abstract Class
+✔ Special Method
+✔ Operator Overloading
