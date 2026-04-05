@@ -16,3 +16,16 @@
 ✔ Abstract Class
 ✔ Special Method
 ✔ Operator Overloading
+##########
+
+25: Vehicle System
+Base class: Vehicle
+Derived classes: Car, Bike
+
+👉 Add:
+
+overridden methods
+
+👉 Concepts:
+✔ Inheritance
+✔ Polymorphism
