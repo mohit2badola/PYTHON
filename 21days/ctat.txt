@@ -29,3 +29,13 @@ overridden methods
 👉 Concepts:
 ✔ Inheritance
 ✔ Polymorphism
+
+Create class Logger:
+
+write logs to file
+different levels:
+INFO
+WARNING
+ERROR
+
+👉 Bonus: Use Singleton here
