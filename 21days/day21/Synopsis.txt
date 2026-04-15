@@ -1,0 +1,87 @@
+## **Project Title:** Smart Expense Tracker (CLI-Based)
+
+### **1. Introduction**
+
+The Smart Expense Tracker is a command-line based Python application designed to help users manage and track their daily expenses efficiently. It allows users to record expenses, categorize them, set budgets, and generate reports in CSV and PDF formats.
+
+---
+
+### **2. Objective**
+
+The main objectives of this project are:
+
+* To develop a system for recording daily expenses
+* To categorize and analyze spending habits
+* To implement file handling using CSV
+* To generate professional reports in PDF format
+* To apply Object-Oriented Programming (OOP) concepts in Python
+
+---
+
+### **3. Features**
+
+* Add new expenses (amount, category, description, date)
+* View all expenses
+* Calculate total spending
+* Set and track budget
+* Save data in CSV format
+* Export expense report as PDF
+
+---
+
+### **4. Technologies Used**
+
+* Python (Core Programming)
+* CSV Module (Data Storage)
+* ReportLab Library (PDF Generation)
+* Datetime Module
+
+---
+
+### **5. System Design**
+
+The system is divided into:
+
+* **Expense Class**: Stores individual expense details
+* **ExpenseTracker Class**: Handles all operations like add, view, save, export
+
+---
+
+### **6. Methodology**
+
+1. User inputs expense data
+2. Data is stored in a list of objects
+3. Data is saved into a CSV file
+4. Reports are generated in PDF format using structured tables
+
+---
+
+### **7. Advantages**
+
+* Simple and easy to use
+* Lightweight (no database required)
+* Helps in financial tracking
+* Generates professional reports
+
+---
+
+### **8. Limitations**
+
+* No graphical user interface (CLI-based)
+* No multi-user support
+* Limited data visualization
+
+---
+
+### **9. Future Scope**
+
+* Add GUI using Tkinter
+* Add database (MySQL)
+* Add charts and analytics
+* Develop web/mobile version
+
+---
+
+### **10. Conclusion**
+
+The Smart Expense Tracker is a useful application that demonstrates practical implementation of Python concepts like OOP, file handling, and report generation. It provides a simple solution for managing personal finances efficiently.
