@@ -1,87 +1,66 @@
-## **Project Title:** Smart Expense Tracker (CLI-Based)
+Project Title: Smart Expense Tracker (CLI-Based)
 
-### **1. Introduction**
+1. Introduction
+The Smart Expense Tracker is a command-line based Python application designed to help users manage and track their daily expenses efficiently. It allows users to record expenses, categorize them, set budgets, and generate reports in CSV and PDF formats. This project focuses on applying programming concepts to solve real-world financial tracking problems.
 
-The Smart Expense Tracker is a command-line based Python application designed to help users manage and track their daily expenses efficiently. It allows users to record expenses, categorize them, set budgets, and generate reports in CSV and PDF formats.
-
----
-
-### **2. Objective**
-
+2. Objective
 The main objectives of this project are:
 
-* To develop a system for recording daily expenses
-* To categorize and analyze spending habits
-* To implement file handling using CSV
-* To generate professional reports in PDF format
-* To apply Object-Oriented Programming (OOP) concepts in Python
+To develop a system for recording daily expenses
+To categorize and analyze spending habits
+To implement file handling using CSV
+To generate professional reports in PDF format
+To apply Object-Oriented Programming (OOP) concepts in Python
 
----
+3. Features
 
-### **3. Features**
+Add new expenses including amount, category, description, and date
+View all recorded expenses
+Calculate total spending
+Set and monitor a monthly budget
+Save expense data in CSV format
+Export expense reports as a PDF file
 
-* Add new expenses (amount, category, description, date)
-* View all expenses
-* Calculate total spending
-* Set and track budget
-* Save data in CSV format
-* Export expense report as PDF
+4. Technologies Used
 
----
+Python (Core Programming Language)
+CSV Module (for data storage)
+ReportLab Library (for PDF generation)
+Datetime Module (for handling dates)
 
-### **4. Technologies Used**
+5. System Design
+The system is designed using Object-Oriented Programming concepts and consists of two main classes:
 
-* Python (Core Programming)
-* CSV Module (Data Storage)
-* ReportLab Library (PDF Generation)
-* Datetime Module
+Expense Class: Stores details of each expense such as amount, category, date, and description
+ExpenseTracker Class: Handles operations like adding expenses, viewing data, saving to CSV, and exporting to PDF
 
----
+6. Methodology
 
-### **5. System Design**
+The user enters expense details through the command-line interface
+The data is stored in a list using objects of the Expense class
+The data is saved into a CSV file for persistence
+The application processes the data to calculate totals and budgets
+A formatted PDF report is generated using the stored data
 
-The system is divided into:
+7. Advantages
 
-* **Expense Class**: Stores individual expense details
-* **ExpenseTracker Class**: Handles all operations like add, view, save, export
+Simple and easy-to-use interface
+Lightweight application with no need for a database
+Helps users track and manage personal finances
+Generates professional and shareable reports
 
----
+8. Limitations
 
-### **6. Methodology**
+The application is command-line based and lacks a graphical user interface
+No support for multiple users
+Limited data visualization features
 
-1. User inputs expense data
-2. Data is stored in a list of objects
-3. Data is saved into a CSV file
-4. Reports are generated in PDF format using structured tables
+9. Future Scope
 
----
+Development of a graphical user interface using Tkinter
+Integration with a database like MySQL
+Addition of charts and data visualization
+Conversion into a web or mobile application
 
-### **7. Advantages**
-
-* Simple and easy to use
-* Lightweight (no database required)
-* Helps in financial tracking
-* Generates professional reports
-
----
-
-### **8. Limitations**
-
-* No graphical user interface (CLI-based)
-* No multi-user support
-* Limited data visualization
-
----
-
-### **9. Future Scope**
-
-* Add GUI using Tkinter
-* Add database (MySQL)
-* Add charts and analytics
-* Develop web/mobile version
-
----
-
-### **10. Conclusion**
-
-The Smart Expense Tracker is a useful application that demonstrates practical implementation of Python concepts like OOP, file handling, and report generation. It provides a simple solution for managing personal finances efficiently.
+10. Conclusion
+The Smart Expense Tracker is a practical application that demonstrates the implementation of Python concepts such as Object-Oriented Programming, file handling, and report generation. It provides an efficient and user-friendly way to manage daily expenses and serves as a strong foundation for developing more advanced financial management systems.
