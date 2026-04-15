@@ -52,5 +52,5 @@ Managing personal finances is an essential skill. This project provides a simple
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone <your-repo-link>
+git clone[ (https://github.com/mohit2badola/PYTHON/21days/day21) ]
 cd expense-tracker
